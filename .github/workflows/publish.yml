@@ -30,8 +30,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install build dependencies
-        run: pdm  build
+      # - name: Install build dependencies
+      #   run: pdm  build
+
+      - name: Publish package distributions to PyPI
+        run: pdm publish
 
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@v1.12.3
