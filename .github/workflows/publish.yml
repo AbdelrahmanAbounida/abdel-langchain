@@ -32,9 +32,9 @@ jobs:
       - name: Publish package distributions to PyPI
         run: pdm publish
 
-        with:
-          username: ${{ secrets.PYPI_USERNAME }}
-          password: ${{ secrets.PYPI_API_TOKEN }}
+    with:
+      username: ${{ secrets.PYPI_USERNAME }}
+      password: ${{ secrets.PYPI_API_TOKEN }}
 
       # - name: Run tests
       #   run: pdm run pytest
