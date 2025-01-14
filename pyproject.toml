@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "abdel_langchain"
-version = "0.1.0"
+version = "0.1.1"
 description = "A New Perspective on LangChain Design"
 authors = [
     {name = "Abdelrahman Abounida", email = "abdelrahmanaboneda@gmail.com"},
