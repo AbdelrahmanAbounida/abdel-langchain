@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 
 [project]
-name = "abdel-langchain"
+name = "abdel_langchain"
 version = "0.1.0"
 description = "A New Perspective on LangChain Design"
 authors = [
